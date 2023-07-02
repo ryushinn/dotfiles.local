@@ -8,7 +8,13 @@
 - clean: ['~', '~/.ssh']
 
 - link:
+    ~/.dotfiles.local: "" # symlink a fixed path for all local dotfiles
+
+    # ssh config
     ~/.ssh/config: ssh/config
+
+    # git config
+    ~/.gitconfig.local:
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
