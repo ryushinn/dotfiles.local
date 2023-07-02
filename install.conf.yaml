@@ -12,6 +12,7 @@
 
     # ssh config
     ~/.ssh/config: ssh/config
+    ~/.ssh/config.local: ssh/config.local
 
     # git config
     ~/.gitconfig.local:
