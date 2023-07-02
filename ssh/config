@@ -1,5 +1,5 @@
 # includes must go at the top
 # host-specific customization
-Include ~/.ssh/config_local
+Include ~/.ssh/config.local
 # extra stuff not in version control
-Include ~/.ssh/config_extra
+Include ~/.ssh/config.extra
