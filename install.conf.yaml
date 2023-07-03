@@ -17,6 +17,22 @@
     # git config
     ~/.gitconfig.local:
 
+
+# Sets default config for certain directives
+- defaults:
+    brewfile:
+        stdout: true
+    brew:
+        stderr: False
+        stdout: False
+
+# Installs brew if missing
+- install-brew: true
+
+# Reads brewfile for packages to install
+- brewfile:
+    - Brewfile
+
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [./macos, Configuring MacOS setting]
