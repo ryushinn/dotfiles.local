@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# close system preferences to keep it from overriding stuff
+osascript -e 'tell application "System Preferences" to quit'
+
+# automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+# disable keyboard press and hold popup
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# show all file extensions
+defaults write -g AppleShowAllExtensions -bool true
+
+# disable warning when changing file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# show the pathbar in Finder
+defaults write com.apple.finder ShowPathbar -bool true; killall Finder
+
+# Third-party apps
+##################
