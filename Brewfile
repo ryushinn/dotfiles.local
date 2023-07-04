@@ -31,6 +31,7 @@ cask "ticktick"
 cask "visual-studio-code"
 cask "zotero"
 cask "anaconda"
+cask "rectangle"
 
 # mac apple store
 mas "CopyLess 2", id: 993841014
