@@ -30,6 +30,7 @@ cask "spotify"
 cask "ticktick"
 cask "visual-studio-code"
 cask "zotero"
+cask "anaconda"
 
 # mac apple store
 mas "CopyLess 2", id: 993841014
