@@ -1,4 +1,5 @@
 - apt:
+  - build-essential
   - zsh
   - zoxide
   - fzf
