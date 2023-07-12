@@ -17,6 +17,7 @@
     # git config
     ~/.gitconfig.local:
 
+    ~/.zshrc.local:
 
 # Sets default config for certain directives
 - defaults:
