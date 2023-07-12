@@ -32,6 +32,7 @@ cask "visual-studio-code"
 cask "zotero"
 cask "anaconda"
 cask "rectangle"
+cask "anki"
 
 # mac apple store
 mas "CopyLess 2", id: 993841014
