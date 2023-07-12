@@ -1,3 +1,14 @@
 - apt:
   - zsh
   - zoxide
+  - fzf
+  - tree
+  - tldr
+  - tmux
+  - screen
+  - coreutils
+  - moreutils
+  - findutils
+  - wget
+  - imagemagick
+  - ffmpeg
