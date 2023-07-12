@@ -20,7 +20,7 @@
     - [git submodule update --init --recursive, Installing submodules]
     - [cp ~/.vimrc /mnt/c/Users/ryushinn/.vimrc, Copying the .vimrc to Win home directory]
     - 
-        command: sudo ./install -p dotbot-apt/apt.py -c packages.config.yaml
+        command: sudo ./install -p dotbot-apt/apt.py -c packages.config.yaml && sudo git submodule foreach git clean -dfX
         description: Installing required packages
         stdout: True
         stderr: True
