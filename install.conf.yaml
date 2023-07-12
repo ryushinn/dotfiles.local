@@ -16,6 +16,8 @@
     # git config
     ~/.gitconfig.local:
 
+    ~/.zshrc.local:
+
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [cp ~/.vimrc /mnt/c/Users/ryushinn/.vimrc, Copying the .vimrc to Win home directory]
