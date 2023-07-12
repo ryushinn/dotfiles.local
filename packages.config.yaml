@@ -13,3 +13,4 @@
   - wget
   - imagemagick
   - ffmpeg
+  - socat # to relay 1password ssh agent

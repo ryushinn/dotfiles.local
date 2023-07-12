@@ -1,14 +1,17 @@
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/ryushinn/miniconda2/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq -1 ]; then
+__conda_setup="$('/home/ryushinn/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/ryushinn/miniconda2/etc/profile.d/conda.sh" ]; then
-        . "/home/ryushinn/miniconda2/etc/profile.d/conda.sh"
+    if [ -f "/home/ryushinn/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/ryushinn/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/ryushinn/miniconda2/bin:$PATH"
+        export PATH="/home/ryushinn/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# to relay 1password ssh agent
+source $HOME/.agent-bridge.sh
