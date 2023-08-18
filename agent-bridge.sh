@@ -9,7 +9,7 @@ ALREADY_RUNNING=$(
     echo $?
 )
 TEST_SSH_ADD=$(
-    ssh-add -l
+    ssh-add -l &> /dev/null
     echo $?
 )
 if [[ $ALREADY_RUNNING != "0" || $TEST_SSH_ADD != "0" ]]; then
