@@ -1,5 +1,7 @@
 - apt:
   - build-essential
+  - net-tools
+  - openssh-server
   - zsh
   - zoxide
   - fzf
