@@ -3,7 +3,7 @@
         relink: true
         create: true
 
-- create: ["~/.ssh", "~/.1password"]
+- create: ["~/.ssh"]
 
 - clean: ['~', '~/.ssh']
 
@@ -17,8 +17,6 @@
     ~/.gitconfig.local:
 
     ~/.zshrc.local:
-
-    ~/.agent-bridge.sh:
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

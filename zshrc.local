@@ -12,6 +12,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-# to relay 1password ssh agent
-source $HOME/.agent-bridge.sh
