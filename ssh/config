@@ -3,3 +3,5 @@
 Include ~/.ssh/config.local
 # extra stuff not in version control
 Include ~/.ssh/config.extra
+
+AddKeysToAgent=yes

@@ -14,4 +14,6 @@ git checkout "$PLATFORM_BRANCH"
 main
 |
 +- macos
+|
++- WSL (Windows)
 ```
