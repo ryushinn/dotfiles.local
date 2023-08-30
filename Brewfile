@@ -17,6 +17,7 @@ brew "findutils"
 brew "wget"
 brew "imagemagick" 
 brew "ffmpeg"
+brew "mosh"
 
 # casks
 cask "1password"
