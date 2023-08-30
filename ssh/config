@@ -5,3 +5,20 @@ Include ~/.ssh/config.local
 Include ~/.ssh/config.extra
 
 AddKeysToAgent=yes
+
+# Home
+
+Host haruhi
+    User ryushinn
+    HostName 172.16.7.106
+
+Host haruhi-WSL
+    User ryushinn
+    HostName localhost
+    ProxyJump haruhi
+
+# Other
+
+Host github
+    User git
+    HostName github.com
