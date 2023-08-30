@@ -2,6 +2,7 @@
   - build-essential
   - net-tools
   - openssh-server
+  - mosh
   - zsh
   - zoxide
   - fzf
