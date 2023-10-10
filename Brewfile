@@ -34,6 +34,7 @@ cask "zotero"
 cask "anaconda"
 cask "rectangle"
 cask "anki"
+cask "docker"
 
 # mac apple store
 mas "CopyLess 2", id: 993841014
