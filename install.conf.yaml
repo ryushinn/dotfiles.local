@@ -26,4 +26,4 @@
         description: Installing required packages
         stdout: True
         stderr: True
-    - [chsh -s $(which zsh), Setting zsh as the default shell]
+    - [sudo chsh -s $(which zsh) $(whoami), Setting zsh as the default shell]
