@@ -17,6 +17,13 @@ Host haruhi-WSL
     HostName localhost
     ProxyJump haruhi
 
+# School
+
+Host fitzrovia
+    User ryushinn
+    HostName 128.16.13.230
+    Port 8482
+
 # Other
 
 Host github
