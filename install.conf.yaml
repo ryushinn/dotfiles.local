@@ -26,4 +26,4 @@
         description: Installing required packages
         stdout: True
         stderr: True
-    - [sudo chsh -s $(which zsh), Setting zsh as the default shell]
+    - [chsh -s $(which zsh), Setting zsh as the default shell]
