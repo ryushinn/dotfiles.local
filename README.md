@@ -3,9 +3,7 @@
 Install the local dotfiles for different platforms:
 
 ```bash
-git clone --recurse-submodules "$URL"
-git checkout "$PLATFORM_BRANCH"
-./install
+git clone "$URL" && cd dotfiles.local && git checkout "$PLATFORM_BRANCH" && ./install
 ```
 
 ## Platforms branches
