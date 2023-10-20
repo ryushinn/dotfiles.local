@@ -15,24 +15,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-# Check if wsl2-ssh-agent file exists in $HOME folder and download if not
-# Evaluate wsl2-ssh-agent as well
-if [[ ! -f "$HOME/wsl2-ssh-agent" ]]; then
-    echo "Downloading wsl2-ssh-agent..."
-
-    if [[ $(uname -m) == "x86_64" ]]; then
-        echo "Running on x86_64 architecture."
-        curl -L -o "$HOME/wsl2-ssh-agent" https://github.com/mame/wsl2-ssh-agent/releases/latest/download/wsl2-ssh-agent
-    elif [[ $(uname -m) == "aarch64" ]]; then
-        echo "Running on arm64 architecture."
-        curl -L -o "$HOME/wsl2-ssh-agent" https://github.com/mame/wsl2-ssh-agent/releases/latest/download/wsl2-ssh-agent-arm64
-        # Add arm64 specific commands here
-    else
-        echo "Unknown architecture: $(uname -m)"
-
-    fi
-    chmod 755 "$HOME/wsl2-ssh-agent"
-    echo "Download complete."
-fi
-eval $($HOME/wsl2-ssh-agent)
