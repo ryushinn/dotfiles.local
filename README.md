@@ -13,7 +13,9 @@ main
 |
 +- macos
 |
-+- WSL (Windows)
++- WSL (Windows 11)
+|
++- ubuntu (22.04)
 |
 +- arch-linux
 ```
