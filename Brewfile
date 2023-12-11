@@ -18,6 +18,7 @@ brew "wget"
 brew "imagemagick" 
 brew "ffmpeg"
 brew "mosh"
+brew "pandoc"
 
 # casks
 cask "1password"
@@ -35,6 +36,7 @@ cask "anaconda"
 cask "rectangle"
 cask "anki"
 cask "docker"
+cask "obsidian"
 
 # mac apple store
 mas "CopyLess 2", id: 993841014
