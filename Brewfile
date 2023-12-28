@@ -37,6 +37,7 @@ cask "rectangle"
 cask "anki"
 cask "docker"
 cask "obsidian"
+cask "tev"
 
 # mac apple store
 mas "CopyLess 2", id: 993841014
