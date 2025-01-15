@@ -8,6 +8,8 @@ git clone "$URL" && cd dotfiles.local && git checkout "$PLATFORM_BRANCH" && ./in
 
 ## Platforms branches
 
+The command line to check the Operating System: `hostnamectl`
+
 ```text
 main
 |
@@ -18,4 +20,6 @@ main
 +- ubuntu (22.04)
 |
 +- arch-linux
+|
++- CentOS (UCL HPC Cluster [CentOS Linux 7 (Core)])
 ```
