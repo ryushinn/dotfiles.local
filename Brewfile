@@ -1,11 +1,7 @@
-# taps
-tap "homebrew/bundle"
-
 # formulae
 brew "git"
 brew "git-lfs"
 brew "lazygit"
-brew "mas"
 brew "zoxide"
 brew "eza"
 brew "bat"
