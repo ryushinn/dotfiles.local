@@ -1,17 +1,16 @@
 # init zoxide
 eval "$(zoxide init zsh)"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/ryushinn/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/ryushinn/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/ryushinn/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/ryushinn/miniconda3/bin:$PATH"
-    fi
+# Check for 'eza'
+# If exist, map ls to eza
+if command -v eza >/dev/null 2>&1; then
+    alias ls='eza --icons --group-directories-first'
 fi
-unset __conda_setup
-# <<< conda initialize <<<
+
+# Check for 'bat' or 'batcat' (common on Ubuntu/Debian)
+# If exist, map cat to it
+if command -v bat >/dev/null 2>&1; then
+    alias cat='bat --paging=never'
+elif command -v batcat >/dev/null 2>&1; then
+    alias cat='batcat --paging=never'
+fi
