@@ -40,4 +40,3 @@
         stdout: true
         stderr: true
     - [sudo chsh -s $(which zsh) $(whoami), Setting zsh as the default shell]
-    - [sudo git submodule foreach git clean -dfX, Cleaning submodules]
