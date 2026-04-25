@@ -5,7 +5,7 @@ Install the local dotfiles for different platforms:
 ```bash
 PLATFORM_BRANCH=ubuntu
 URL=https://github.com/ryushinn/dotfiles.local
-git clone "$URL" && cd dotfiles.local && git checkout "$PLATFORM_BRANCH" && ./install
+git clone "$URL" && cd dotfiles.local && git checkout "$PLATFORM_BRANCH" && ./install --verbose
 ```
 
 ## Platforms branches
