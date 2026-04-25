@@ -35,4 +35,3 @@
 
 - shell:
     - [./macos, Configuring MacOS setting]
-    - [git submodule foreach git clean -dfX, Cleaning submodules]
