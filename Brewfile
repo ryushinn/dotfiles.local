@@ -30,6 +30,7 @@ brew "poppler"
 brew "7-zip"
 brew "jq"
 brew "resvg"
+brew "atuin"
 
 # casks
 cask "1password"

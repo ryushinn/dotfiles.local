@@ -1,6 +1,10 @@
 # init zoxide
 eval "$(zoxide init zsh)"
 
+# init atuin
+# disable up arrow binding
+eval "$(atuin init zsh --disable-up-arrow)"
+
 # Check for 'eza'
 # If exist, map ls to eza
 if command -v eza >/dev/null 2>&1; then
