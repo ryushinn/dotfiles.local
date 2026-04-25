@@ -18,10 +18,21 @@
 
     ~/.zshrc.local:
 
+# Sets default config for brew directives
+- defaults:
+    brewfile:
+        stdout: true
+    brew:
+        stderr: false
+        stdout: false
+
+# Installs Homebrew if missing
+- install-brew: true
+
+# Reads Brewfile for packages to install
+- brewfile:
+    - Brewfile
+
 - shell:
-    - 
-        command: sudo ./install -p dotbot-apt/apt.py -c packages.config.yaml && sudo git submodule foreach git clean -dfX
-        description: Installing required packages
-        stdout: True
-        stderr: True
     - [sudo chsh -s $(which zsh) $(whoami), Setting zsh as the default shell]
+    - [git submodule foreach git clean -dfX, Cleaning submodules]
