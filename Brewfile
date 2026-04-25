@@ -26,8 +26,3 @@ brew "poppler"
 brew "7-zip"
 brew "jq"
 brew "resvg"
-
-# for linux
-brew "openssh-server"
-brew "net-tools"
-brew "build-essential"

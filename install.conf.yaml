@@ -34,5 +34,10 @@
     - Brewfile
 
 - shell:
+    -
+        command: sudo ./install -p dotbot-apt/apt.py -c packages.config.yaml
+        description: Installing Linux system packages via apt
+        stdout: true
+        stderr: true
     - [sudo chsh -s $(which zsh) $(whoami), Setting zsh as the default shell]
-    - [git submodule foreach git clean -dfX, Cleaning submodules]
+    - [sudo git submodule foreach git clean -dfX, Cleaning submodules]
