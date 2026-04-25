@@ -3,7 +3,7 @@
 Install the local dotfiles for different platforms:
 
 ```bash
-git clone "$URL" && cd dotfiles.local && git checkout "$PLATFORM_BRANCH" && ./install
+git clone "$URL" && cd dotfiles.local && git checkout "$PLATFORM_BRANCH" && ./install --verbose
 ```
 
 ## Platforms branches
