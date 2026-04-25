@@ -26,9 +26,6 @@
         stderr: False
         stdout: False
 
-# Installs brew if missing
-- install-brew: true
-
 # Reads brewfile for packages to install
 - brewfile:
     - Brewfile
