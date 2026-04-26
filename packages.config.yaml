@@ -1,4 +1,5 @@
 - apt:
+  - zsh
   - openssh-server
   - net-tools
   - build-essential
