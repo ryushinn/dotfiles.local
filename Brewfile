@@ -1,5 +1,4 @@
 # taps
-tap "homebrew/bundle"
 
 # formulae
 brew "git"
@@ -31,12 +30,13 @@ brew "7-zip"
 brew "jq"
 brew "resvg"
 brew "atuin"
+brew "claude-code"
+brew "codex"
 
 # casks
 cask "1password"
 cask "1password-cli"
 cask "bartender"
-cask "cheatsheet"
 cask "microsoft-edge"
 cask "slack"
 cask "snipaste"
@@ -44,7 +44,6 @@ cask "spotify"
 cask "ticktick"
 cask "visual-studio-code"
 cask "zotero"
-cask "anaconda"
 cask "rectangle"
 cask "docker"
 cask "tev"
@@ -61,6 +60,4 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Microsoft Outlook", id: 985367838
 mas "OneDrive", id: 823766827
-mas "QQ", id: 451108668
 mas "WeChat", id: 836500024
-mas "WhatsApp", id: 1147396723
