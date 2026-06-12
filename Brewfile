@@ -30,7 +30,7 @@ brew "7-zip"
 brew "jq"
 brew "resvg"
 brew "atuin"
-brew "claude-code"
+cask "claude-code@latest"
 brew "codex"
 
 # casks
