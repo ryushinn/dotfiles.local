@@ -53,6 +53,11 @@ cask "copilot-cli"
 cask "ghostty"
 cask "iina"
 
+# fonts
+cask "font-libertinus"
+cask "font-urw-base35"
+cask "font-dm-sans"
+
 # mac apple store
 mas "CopyLess 2", id: 993841014
 mas "Microsoft Excel", id: 462058435
