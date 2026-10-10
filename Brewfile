@@ -15,3 +15,8 @@ brew "atuin"
 cask "claude-code@latest"
 cask "codex"
 cask "copilot-cli"
+
+# fonts
+cask "font-libertinus"
+cask "font-urw-base35"
+cask "font-dm-sans"
